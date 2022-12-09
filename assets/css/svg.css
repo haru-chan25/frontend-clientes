@@ -1,0 +1,10 @@
+.semicirculo-top {
+    position: absolute;
+    transform: rotate(180deg);
+    width: calc(100% + 1.3px);
+    top: -65px;
+    height: auto;
+}
+
+
+

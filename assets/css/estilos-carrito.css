@@ -1,0 +1,347 @@
+#figura1c{
+
+    
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 204.94px;
+    height: 209.84px;
+    left: -86px;
+    top: 398px;
+    border-radius: 100%;
+    z-index: 10;    
+    border: 2.5px solid #262626;
+}
+
+#figura2c{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 173.89px;
+    height: 178.05px;
+    left: -70.47px;
+    top: 413.9px;
+    border-radius: 100%;
+    z-index: 10;    
+    border: 2.5px solid #262626;    
+}
+
+#figura3{
+
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 120.07px;
+    height: 122.94px;
+    left: -43.56px;
+    top: 441.45px;
+    
+    border: 1.6px solid #262626;
+    border-radius: 100%;
+    z-index: 10;    
+    border: 2.5px solid #262626;
+    
+}
+
+
+#figura4{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 92.12px;
+    height: 94.32px;
+    left: -30.11px;
+    top: 456.29px;
+    
+    border: 1.5px solid #262626;
+    border-radius: 100%;
+    z-index: 10;    
+    border: 2.5px solid #262626;
+    
+}
+
+#figura5{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 60.03px;
+    height: 61.47px;
+    left: -13.55px;
+    top: 472.19px;
+    
+    border: 1px solid #262626;
+    border-radius: 100%;
+    z-index: 10;    
+    border: 2.5px solid #262626;
+    
+}
+
+#figura6{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 38.3px;
+    height: 39.21px;
+    left: -2.16px;
+    top: 483.84px;
+    
+    border: 1px solid #262626;
+
+    border-radius: 100%;
+    z-index: 10;    
+    border: 2.5px solid #262626;
+}
+
+#figura7{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 146.98px;
+    height: 146.98px;
+    left: -57.02px;
+    top: 438.98px;
+    
+    border: 2px solid #262626;
+    border-radius: 100%;
+    z-index: 10;    
+    border: 2.5px solid #262626;
+}
+
+
+.titulo-carrito{
+    background-color: #262626!important;
+    border-radius: 15px!important;
+    border-style:solid ;
+    border-color: #D7F205;
+}
+
+#ubicacion{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+}
+
+
+.div-mapa{
+    width: 100%;
+    object-fit: contain;
+    height: 12rem;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.div-mapa img{
+    object-fit: contain;
+    width:80%;
+    height:100%;
+}
+
+
+.texto-ubicacion{
+    
+    width: 90%;
+    height: 2.5rem;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: stretch;
+    padding-right: 2rem;
+    margin-right: 1rem;
+}
+
+.texto-ubicacion .letras{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 119.19%;
+    /* or 29px */
+    margin-left: .3rem;
+    
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #0A280A;
+}
+
+.seccion-micompra{
+    background-color: #D7D8D9;
+}
+
+.mi-compra{
+    height: 3rem;
+    border-radius: 0  0 91px 90px !important;
+}
+
+
+.detalles-articulos{
+    margin-top: 6rem;
+    width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;   
+
+}
+
+
+.detalles-articulos div{
+
+    width: 80%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.detalles-articulos div span{
+
+    position: relative;
+    z-index: 30;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 119.19%;
+    /* or 29px */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #160027;
+}
+
+.divisor2{
+    display: flex !important;
+	flex-direction: column  !important;
+	flex-wrap: nowrap;
+	justify-content: center !important;
+	align-items: center !important;
+	align-content: stretch;
+
+}
+
+.realizar-compra{
+    background: rgba(38, 38, 38, 0.95);
+    border-radius: 10px;
+    
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.realizar-compra .precios{
+    width: 75%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+
+.realizar-compra .precios span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 119.19%;
+    /* or 29px */
+    
+    display: flex;
+    align-items: center;    
+    color: #FFFFFF; 
+}
+
+
+.valor-moneda{
+    background-color: #D7D8D9;
+    color: black!important;
+    width: 5.5rem!important;
+    padding-right: 1rem;
+    height: 1.7rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px;
+}
+.valor-moneda span{
+    color: black!important;
+}
+
+.boton-compras{
+    width: 17rem;
+    background: #131212;
+    border: 1px solid #FFFFFF;
+    border-radius: 40px;
+    color: #FFFFFF;
+    height: 2rem;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 14px;
+    /* or 58% */
+    
+    text-align: center;
+}
+
+.borde-pie-carrito{
+    background-color: #D7D8D9!important;
+    height: 12.7rem!important;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+}
+
+.borde-pie-carrito span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #160027;
+    
+}
+
+.pie-carrito{
+    height: 19rem!important;
+}
+
+
+.boton-salida{
+    position: absolute;
+    width: 100%;
+    margin-left:65% ;
+}
+

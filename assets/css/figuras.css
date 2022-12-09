@@ -1,0 +1,128 @@
+.elipse{
+    position: absolute;
+    width: 180px;
+    height: 196.76px;
+    left: -95px;
+    top: 208.52px;
+    z-index: 20;
+    
+    background: #262626;
+    border-radius: 100%;
+
+}
+
+.elipse2{
+    position: absolute;
+width: 128.7px;
+height: 123.16px;
+left: 86px;
+top: 437.98px;
+z-index: 20;
+
+background: #A9AFB5;
+border-radius: 100%;
+}
+
+.contendorCirculos{
+
+    position: absolute;
+    width: 245.31px;
+    height: 245.31px;
+    z-index: 20;
+    top: 437.98px;
+    left: -120px;
+
+}
+
+div .cir1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 245.31px;
+    height: 245.31px;  
+
+    border: 2px solid rgba(38, 38, 38, 0.38);
+
+
+    border-radius: 100%;
+}
+
+div .cir2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 204.94px;
+    height: 204.94px;    
+    border: 2px solid rgba(38, 38, 38, 0.38);
+    border-radius: 100%;
+
+    margin: 20px
+}
+
+div .cir3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 173.89px;
+    height: 173.89px;
+
+    border: 2px solid rgba(38, 38, 38, 0.38);
+    border-radius: 100%;
+
+    margin: 35px
+    
+}
+
+div .cir4{
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 146.98px;
+    height: 146.98px;
+
+    border: 2px solid rgba(38, 38, 38, 0.38);
+
+
+    border-radius: 100%;
+
+    margin: 50px 45px;
+}
+
+div .cir5{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 120.07px;
+    height: 120.07px;
+
+    border: 1.6px solid rgba(38, 38, 38, 0.38);
+    border-radius: 100%;
+
+    margin: 65px 60px;
+}
+
+div .cir6{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 92.12px;
+    height: 92.12px;
+    
+    border: 2px solid rgba(38, 38, 38, 0.38);
+    border-radius: 100%;
+
+    margin: 80px 75px;
+}
+
+div .cir7{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 60.03px;
+    height: 60.03px;
+    
+    border: 2px solid rgba(38, 38, 38, 0.38); 
+    border-radius: 100%;
+
+    margin: 97px 95px;
+}

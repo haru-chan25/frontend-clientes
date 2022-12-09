@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos/main.css">
+    <link rel="stylesheet" href="./estilos/figuras.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;1,900&family=Roboto:ital,wght@0,100;0,400;0,500;1,400&display=swap" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   
+    <script src="https://kit.fontawesome.com/80a562f62d.js" crossorigin="anonymous"></script>
+    
+    <title>Fast Very</title>
+</head>
+<body>
+
+    <nav class="navBar1">
+          <div > <img class="logo1" src="./images/logo.svg" alt="logo tipo"></div>
+          <div class="opcionesNav">
+            <div  class="BarraBusquedaContenedor" style="background-color:#D7D8D9 ;"><input class="barraBusqueda" placeholder="Buscar" type="text">  
+                <i style="color: white;" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="menu1">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+    </nav>
+
+        <!-- figuras inicio -->
+        <div class="elipse"></div>
+        <span class="elipse2"></span>
+        <div class="contendorCirculos">
+            <div class="cir1"></div>
+            <div class="cir2"></div>
+            <div class="cir3"></div>
+            <div class="cir4"></div>
+            <div class="cir5"></div>
+            <div class="cir6"></div>
+            <div class="cir7"></div>        
+        </div>
+         <!-- figuras fin -->
+
+
+    <!--inicio login-->
+    <section id="contenedorInicio" class="contenedorInicio">
+        <div class="inicio-sesion">
+            <div class="texto-inicio">adquiere los productos que deseés <br> hasta la puerta de tu casa</div>
+            <div class="linea"><br></div>
+            <div class="inicia-sesion"> inicia Sesión</div> 
+          
+            <input style="z-index: 40;" class="mt-2 form-control form-control-sm border-top-0 border-end-0 border-start-0 rounded-pill input-login shadow sm-body rounded" type="text" name="" id="correo" placeholder="correo electrónico ">
+            <input style="z-index: 40;" class="mt-3 form-control form-control-sm border-top-0 border-end-0 border-start-0 rounded-pill input-login input-login shadow bg-body rounded" type="password" name="" id="contra" placeholder="contraseña"> 
+            <button onclick="ingresar()" type="button" class="btn btn-dark mt-3 boton-login rounded-pill">Ingresar</button>
+              
+        </div>
+        <div class="opciones-registro">
+            <div class="texto-registro">¿Aún no estás <br>
+                registrado?
+            </div>
+            <div class="btn btn-dark  boton-login rounded-pill mb-2">Regístrate</div>
+        </div>
+    </section>
+    <!--fin login-->
+
+    <section id="contenedorMensajes" class="contenedorInicio">
+        <div class="inicio-sesion">
+        <div id="mensajeEntrega" style="z-index: 100; color: #6e772b; width: 80%;" class="inicia-sesion"> Orden ingresa, pronto te estaremos contactando para la entrega</div>  
+        </div>
+    </section>
+     
+
+
+
+
+    <nav class="divSeleccionarCategorias">
+        <div class="navTexto mb-3">Selecciona una <br> categoría</div>
+    </nav>
+
+    <section class="contenedorCategorias">
+        <div  onclick="cargarEmpresas('6386d5ac349552987a8077c5','Restaurantes')"  id="6386d5ac349552987a8077c5" class="restaurantes">
+            <img src="./images/categorias/restaurantes.png" alt="restaurantes">
+        </div>
+        <div onclick="cargarEmpresas('6386d587349552987a8077c3','Supermercados')"  id="6386d587349552987a8077c3" class="supermercados">
+            <img src="./images/categorias/supermercados.png" alt="supermercados">
+        </div>
+        <div  onclick="cargarEmpresas('6386d5bc349552987a8077c7','Farmacias')" id="6386d5bc349552987a8077c7" class="farmacias">
+            <img src="https://i.ibb.co/w70YSNY/farmacias.png" alt="farmacias"  />
+        </div>        
+        <div  onclick="cargarEmpresas('6386d5c9349552987a8077c9','Tiendas')" id="6386d5c9349552987a8077c9" class="tiendas">
+            <img src="./images/categorias/tiendas.png" alt="">
+        </div>
+    </section>
+
+    <footer class="pie">
+        <div class="pie-terminos" >
+            <span class="logo-pie"> <img  src="./images/categorias/logo-pie.png" alt=""></span>
+            <span class="texto-pie mt-0">Acerca de nosotros</span>
+            <div class="texto-pie">  Terminos de uso</div>
+        </div>
+        <div class="pie-redes" >
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </footer>
+
+
+    <script src="../cliente-controlador/controlador-servidor.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,453 @@
+body{
+    width: auto;
+
+}
+
+#figura1{
+    
+    box-sizing: border-box;
+    position: absolute;
+    width: 326px;
+    height: 326px;
+    left: -99px;
+    top: 88px;    
+    border: 2px solid #8874B6;
+    border-radius: 100%;
+    z-index: 10;
+}
+
+#figura2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    left: -60px;
+    top: 98px;
+    
+    border: 2px solid #8874B6;
+    border-radius: 100%;
+}
+
+.titulos-negocios{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 119.19%;
+    /* or 33px */
+    
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    justify-content: flex-end;    
+    color: #262626;
+
+    position: relative;
+    z-index: 20;
+}
+
+.contenedor-negocios{
+    width: auto;
+    height: auto;
+    background: rgba(215, 216, 217, 0.8);
+    border-radius: 40px 0px 0px 40px;
+    margin-left: 1rem;
+
+    padding-right: 1.3rem!important;
+    padding-bottom: 2rem;
+}
+
+.tarjetas-negocios{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 108px;
+        grid-column-gap: 5px;
+        grid-row-gap: 0px;
+}
+
+.tarjetas{
+    /* background-color: rgb(124, 105, 105); */
+    padding: 0!important;
+    padding-top: 0.5rem!important;
+    margin: 0 !important;
+
+    position: relative;
+    z-index: 20;
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+
+.tarjeta{
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+    width: 8rem;
+    height: 8.5rem;
+}
+
+
+.contenedor-imagen-tj{
+    box-sizing: border-box;
+    position: relative;
+    width: 85%;
+    height: 100%;
+    
+    background: #FFFFFF;
+    border: 1px solid #D7F205;
+    border-radius: 100%;
+    z-index: 20;
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+
+    
+}
+
+.imagen-negocios{
+    object-fit: contain;
+    width:5.2rem;
+    height:auto;
+}
+
+
+.tarjetas-negocios .tarjetas .tarjeta .titulo-negocio{
+    position: relative;
+    width: 100%;
+    height: 15%;
+    z-index: 20;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    
+    color: #564975;
+}
+
+.mas-opciones{    
+    height: 40%;
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+	align-content: stretch;
+
+    padding-right: 1rem;
+}
+
+.mas-opciones-boton{
+    color: #2c263b;
+    font-weight: bold;
+    background: rgba(170, 173, 175, 0.863);
+    border-radius: 7px;
+    padding: 4px;
+    border: none;
+}
+
+
+.mas-opciones-click{
+    background-color: rgba(84, 90, 94, 0.863);
+    color: #D7F205;
+    border: #D7F205;
+    border-style: solid;
+    border-width: 1px;
+} 
+
+.empresa-seleccionada{  
+
+    margin: 1rem;
+    margin-top: 2rem;
+  
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, 3.3rem);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.empresa-seleccionada .imagen-empresa-sl{
+
+    grid-area: 1 / 1 / 4 / 2;
+
+
+    width: 100%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;   
+
+    margin-right: 0rem;
+    
+    padding-right: 1.2rem;
+}
+
+.empresa-seleccionada .imagen-empresa-sl div{
+    background-color: #262626;
+    border-radius: 40px;
+    width: auto;
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+.empresa-seleccionada .imagen-empresa-sl div div{
+    background:  #C4C4C4;
+    height: 89%;
+    width: 10rem;
+    border-radius: 100%;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+
+
+.empresa-seleccionada .imagen-empresa-sl div img{
+    object-fit: contain;
+    width:6.4rem;
+    height:auto;
+}
+
+.empresa-seleccionada .nombre-empresa-sl{
+
+    grid-area: 1 / 2 / 2 / 3; 
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 119.19%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #262626;
+
+}
+
+.empresa-seleccionada  .info-empresa-ls{
+    grid-area: 2 / 2 / 4 / 3;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 119.19%;
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+    color: #262626;
+}
+
+.divisor{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divisor span{
+    width: 90%;
+    height: 0px;    
+    border: 1px solid rgba(22, 0, 39, 0.56);
+    margin-bottom: 1rem;
+}
+
+.contenedorSubcategorias{
+    display: grid;
+    grid-template-columns: 1% 98% 1%;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+
+.titulo-subcategoria{
+    background: rgba(38, 38, 38, 0.8);
+    border-radius:  0px 0px 40px 40px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 119.19%;
+    /* or 33px */
+
+    margin-bottom: 1rem;
+    
+    color: #FFFFFF;        
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    text-align: center;
+}
+
+.contenedor-tarjetas-sub{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+
+}
+
+.tarjeta-posicion{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+}
+
+.tarjetas-subcategorias{
+    height: 175px;
+    background-color: #262626;
+    border-radius: 40px;
+    width: 25rem;
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: flex-start;
+}
+
+.producto{
+
+    width: 18.7rem;
+    height: 125px;
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+	align-content: flex-start;
+}
+
+.producto .detalles-producto{
+
+    width: 65%;
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+
+.producto .detalles-producto div{
+    margin-top: 0.5rem;
+    margin-left: -1rem;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 119.19%;
+    color: #FFFFFF; 
+}
+
+.producto .detalles-producto span{
+    font-family: 'Roboto';
+    margin-left: -1rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    /* line-height: 119.19%; */
+    /* or 17px */
+    
+    
+    color: #FFFFFF; 
+}
+.posicion-detalles{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: stretch;
+}
+
+
+.producto .imagen-producto{
+
+    width: 45%;
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-start;
+	align-content: stretch;
+
+}
+
+.producto .imagen-producto img{
+    object-fit: contain;
+    width: 100%;
+    height:100%;
+}
+
+
+
+.boton-carrito{
+    margin-top: 0.2rem;
+    height: 13px;
+    width: 110px;
+
+    border-style: solid;
+    border-color: #CFFF04;
+    border-radius: 10px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 25px;
+    /* or 278% */
+    background: rgb(75, 71, 71);
+
+    text-align: center center;
+    padding-bottom: 9px;
+    
+    letter-spacing: 0.15em;
+    
+    color: #CFFF04;
+}
+
