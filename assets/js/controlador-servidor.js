@@ -98,7 +98,7 @@ function cargarEmpresas(idCategoria, nombreCategoria){
         // obtenerEmpresas(idCategoria, nombreCategoria);
 
         localStorage.setItem("usuario", JSON.stringify({idUsuaurio, idCategoria, nombreCategoria}))
-        window.location.href = '../productos/index.html'
+        window.location.href = '../productos.html'
     }
 }
 

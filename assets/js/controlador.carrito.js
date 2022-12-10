@@ -23,10 +23,10 @@ function cargarProductos(productos){
 cargarProductos(orden.productos);
 
 function cargarDetallesPrecio(){
-    document.getElementById('subTotal').innerHTML = `$$. ${orden.subTotal}`;
+    document.getElementById('subTotal').innerHTML = `$$. ${(orden.subTotal).toFixed(0)}`;
     document.getElementById('envio').innerHTML = `$$. 20`;
-    document.getElementById('impuestos').innerHTML = `$$. ${impuestos}`;
-    document.getElementById('total').innerHTML = `$$. ${total}`;
+    document.getElementById('impuestos').innerHTML = `$$. ${impuestos.toFixed(0)}`;
+    document.getElementById('total').innerHTML = `$$. ${total.toFixed(0)}`;
 
 }
 
@@ -79,5 +79,5 @@ const enviarOrden = async () => {
 
 function ingresarTarjeta(){
     console.log(idOrden)
-    window.location.href= "../carrito/carrito2.html";
+    window.location.href= "../carrito2.html";
 }

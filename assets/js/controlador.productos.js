@@ -212,5 +212,5 @@ function carrito(){
     }, 1000);
     localStorage.setItem('orden', JSON.stringify(orden))
 
-     window.location.href= "../carrito/carrito.html";
+    window.location.href= "../carrito.html";
 }
