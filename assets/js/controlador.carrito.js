@@ -41,7 +41,7 @@ function realizarCompra(){
     console.log(orden)
 
     enviarOrden();
-    ingresarTarjeta();
+    
 }
 
 
@@ -69,6 +69,7 @@ const enviarOrden = async () => {
         console.log('orden res ',ordenRes)
         idOrden = ordenRes[0].idOrden;
         localStorage.setItem('idOrden', JSON.stringify(idOrden) )
+        ingresarTarjeta();
         
     }else{
         console.log('orden res fallo ',ordenRes)

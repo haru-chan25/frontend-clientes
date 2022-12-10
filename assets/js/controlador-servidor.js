@@ -1,6 +1,7 @@
 var idUsuaurio = "";
 var idEmpresa = "";
 
+
 const verificarEntrega = async (idOrden) => {
     const respuesta = await fetch(`http://localhost:3001/api/cliente/ordenEntregada/${idOrden}`, {
         method: "get",
